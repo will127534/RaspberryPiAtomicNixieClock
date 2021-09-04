@@ -1,0 +1,43 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Mar 31 2019 12:09:07
+
+# Family & Device:    iCE5LP4K
+
+# Package:            SG48
+
+# ##############################################################################
+
+###IOSet List 21
+set_io FPGA_PPS 23
+set_io pin_led16 46
+set_io AC_IN 20
+set_io TCXO_IN 35
+set_io EXT_IN 38
+set_io MI 14
+set_io NIXIE_CLK 11
+set_io pin_ledG 40
+set_io CS 27
+set_io NIXIE_DIN 13
+set_io NIXIE_LE 12
+set_io PWM_FAN 6 -pullup yes
+set_io PWM_FAN_INPUT 48 -pullup yes
+set_io pin_led15 47
+set_io pin_ledB 39
+set_io pin_ledR 41
+set_io vclk 44
+set_io GPS_PPS 32
+set_io MO 17
+set_io NIXIE_BL 9
+set_io NIXIE_POL 10
+set_io SCLK 15
+set_io FPGA_Counter_INT 21
+set_io GPS_TX 34
+set_io UART_DATA_INT 28
+set_io CS_uart 18
+set_io MAC_TX 36
+set_io MAC_RX 37

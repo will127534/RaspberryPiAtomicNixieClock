@@ -1,0 +1,1 @@
+create_clock  -period 100 -name {p:vclk} [get_ports {p:vclk}]
