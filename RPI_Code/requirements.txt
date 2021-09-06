@@ -1,0 +1,5 @@
+pyserial
+python-influxdb
+simple-pid
+adafruit-circuitpython-TMP117
+python-dateutil

@@ -1,1 +1,13 @@
-# RaspberryPiAtomicNixieClock
+# RaspberryPi Atomic Nixie Clock
+
+[Description is in WiKi](https://github.com/will127534/RaspberryPiAtomicNixieClock/wiki)
+
+![](https://i.imgur.com/K8xKzDb.jpg)
+
+## Sys Arch
+![](https://i.imgur.com/zrFgwyR.jpg)
+
+## Source File List
+* PCB - PCB related board designed with KiCad v5.99 nightly
+* FPGA Code
+* Raspberry Pi Code
