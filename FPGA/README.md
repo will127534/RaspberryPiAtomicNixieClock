@@ -3,27 +3,27 @@
 Designed for iCE5LP
 
 ## File List
- * main.v - top verilog code
+ * **main.v** - top verilog code
  * Driver
-     * ADS8681.v - ADS8681 Driver
-     * tdc7200.v - TDC7200 Driver
-     * nixie.v - HV5623/HV5623 Driver
-     * spi_master.v - SoftIP SPI, used by the Drivers
-     * spi_slave.v - Using HardIP block
+     * **ADS8681.v** - ADS8681 Driver
+     * **tdc7200.v** - TDC7200 Driver
+     * **nixie.v** - HV5623/HV5623 Driver
+     * **spi_master.v** - SoftIP SPI, used by the Drivers
+     * **spi_slave.v** - Using HardIP block
  * Utility
-     * coarsecounter.v - Simple Counter
-     * bin2bcd.v - Binary to BCD Code for Nixie Tube
-     * delayPPS.v - Generate constant cycle delay for a given input signal
-     * fifo.v - FIFO using BRAM blocks
-     * pps.v - Generate PPS signal, and optionaly can align with external PPS
-     * pwm.v - Actually it is generating PDM signal
-     * rtc.v - A really simple RTC, just counting the time for Nixie Clock
+     * **coarsecounter.v** - Simple Counter
+     * **bin2bcd.v** - Binary to BCD Code for Nixie Tube
+     * **delayPPS.v** - Generate constant cycle delay for a given input signal
+     * **fifo.v** - FIFO using BRAM blocks
+     * **pps.v** - Generate PPS signal, and optionaly can align with external PPS
+     * **pwm.v** - Actually it is generating PDM signal
+     * **rtc.v** - A really simple RTC, just counting the time for Nixie Clock
  * Testbench
-     * counter_test.v - coarsecounter.v testing
-     * pdm_test.v - pwm.v testing
-     * spi_m_test.v
-     * spi_s_test.v
- * pins.pcf - pin definition
+     * **counter_test.v** - coarsecounter.v testing
+     * **pdm_test.v** - pwm.v testing
+     * **spi_m_test.v**
+     * **spi_s_test.v**
+ * **pins.pcf** - pin definition
 
 ## iCECube2 output 
 > Device Utilization Summary
