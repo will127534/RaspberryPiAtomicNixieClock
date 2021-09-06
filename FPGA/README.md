@@ -6,7 +6,7 @@ Designed for iCE5LP
  * main.v - top verilog code
  * Driver
      * ADS8681.v - ADS8681 Driver
-     * tdc7200.v - tdc7200 Driver
+     * tdc7200.v - TDC7200 Driver
      * nixie.v - HV5623/HV5623 Driver
      * spi_master.v - SoftIP SPI
      * spi_slave.v - Using HardIP block
