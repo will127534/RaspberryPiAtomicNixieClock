@@ -35,11 +35,11 @@ InfluxDB is used to collect time series data. The setting is in **dbSetting.py**
     * Reading MAC status and creating UDP server for other program to communicate with MAC. (**calibrateClock.py**)
 * **calibrateClock.py**
     * The program to read current PPS error using InfluxDB and tune the clock EFC. The EFC tuning cmd is send via UDP package to **uploadMAC.py**. The tuning algroithm is a simple accumlated error.
-* readADC
+* **readADC**
     * The C program to poll ADC reading and output frequency and Vrms data to stdio.
     * `gcc -o readADC ./readADC.c -lm -mcpu='cortex-a72' -O3`
     * `./readADC [folderPath]`
-* autoBrightness
+* **autoBrightness**
     * The C program to control Nixie Tube brightness. Reading Lux sensor and send cmd to FPGA.
     * `g++ -o autoBrightness ./main.cpp ./Adafruit_PWMServoDriver.cpp ./TSL2561.cpp -lwiringPi`
     * `autoBrightness [lowest_pwm]`
