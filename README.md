@@ -9,5 +9,5 @@
 
 ## Source File List
 * PCB - PCB related board designed with KiCad v5.99 nightly
-* FPGA Code
-* Raspberry Pi Code
+* FPGA Code - Verilog files
+* Raspberry Pi Code - Python + C code
