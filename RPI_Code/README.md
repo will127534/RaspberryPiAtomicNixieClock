@@ -46,7 +46,7 @@ InfluxDB is used to collect time series data. The setting is in **dbSetting.py**
 * **fanControl.py**
     * Reading TMP117 and using PID loop on the bottom fan to maintain the clock temperature
 * mountdrive.sh
-    * Create 512MB ramdisk to store AC waveform, and mounting NVMe drive.
+    * Creating a 512MB ramdisk to store AC waveform, and mounting NVMe drive.
 * **moveFile.py**
     * Copy the file from ramdisk to NVMe drive.
 * **uploadFPGA.py**
