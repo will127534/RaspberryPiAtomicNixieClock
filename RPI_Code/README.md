@@ -1,6 +1,6 @@
 # Raspberry Pi Code
 
-The code here is more intended to document the communication with the FPGA and SA.3xm Atomic Clock.
+The code is intended to document the communication with the FPGA and SA.3xm Atomic Clock.
 
 ## Setup
 
