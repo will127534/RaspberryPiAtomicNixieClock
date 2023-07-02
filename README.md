@@ -1,6 +1,6 @@
 # RaspberryPi Atomic Nixie Clock
 
-[Full description is in WiKi](https://github.com/will127534/RaspberryPiAtomicNixieClock/wiki)
+[Full description is in here](https://www.willwhang.dev/RaspberryPi-Atomic-Nixie-Clock/)
 
 ![](https://i.imgur.com/K8xKzDb.jpg)
 
